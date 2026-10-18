@@ -1,0 +1,24 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=amadeOS Solitaire
+Name[de]=amadeOS Solitär
+Name[fr]=amadeOS Solitaire
+Name[es]=amadeOS Solitario
+Name[it]=amadeOS Solitario
+GenericName=Card Game
+GenericName[de]=Kartenspiel
+GenericName[fr]=Jeu de cartes
+GenericName[es]=Juego de cartas
+GenericName[it]=Gioco di carte
+Comment=Klondike patience: build the foundations from ace to king
+Comment[de]=Klondike-Patience: die Ablagestapel vom Ass bis zum König aufbauen
+Comment[fr]=Patience Klondike : monter les fondations de l'as au roi
+Comment[es]=Solitario Klondike: construir las fundaciones del as al rey
+Comment[it]=Solitario Klondike: costruire le fondazioni dall'asso al re
+Icon=amade-solitaire-game
+Exec=/usr/bin/amade-solitaire-game
+Terminal=false
+Categories=Game;CardGame;
+Keywords=solitaire;klondike;patience;cards;game;
+StartupNotify=true

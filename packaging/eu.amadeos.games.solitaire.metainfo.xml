@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- AppStream metadata of amade-solitaire-game, installed as /usr/share/metainfo/eu.amadeos.games.solitaire.metainfo.xml.
+     amadeOS Software shows it for the installed package; a repository's appstream-generator reads it too. -->
+<component type="desktop-application">
+  <id>eu.amadeos.games.solitaire</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>EUPL-1.2</project_license>
+
+  <name>amadeOS Solitaire</name>
+
+  <summary>Klondike patience: build the foundations from ace to king</summary>
+  <summary xml:lang="de">Klondike-Patience: die Ablagestapel vom Ass bis zum König aufbauen</summary>
+  <summary xml:lang="fr">Réussite Klondike : montez les fondations de l'as au roi</summary>
+  <summary xml:lang="es">Solitario Klondike: construya las bases del as al rey</summary>
+  <summary xml:lang="it">Solitario Klondike: costruisci le fondazioni dall'asso al re</summary>
+
+  <description>
+    <p>The card game of the amadeOS desktop: Klondike, the classic patience. Turn over the stock, build down the columns in alternating colours and move every card to the foundations.</p>
+    <p xml:lang="de">Das Kartenspiel des amadeOS-Desktops: Klondike, die klassische Patience. Decken Sie den Stapel auf, legen Sie die Reihen in wechselnden Farben ab und bringen Sie jede Karte auf die Ablagestapel.</p>
+    <p xml:lang="fr">Le jeu de cartes du bureau amadeOS : Klondike, la réussite classique. Retournez la pioche, descendez les colonnes en alternant les couleurs et montez toutes les cartes sur les fondations.</p>
+    <p xml:lang="es">El juego de cartas del escritorio amadeOS: Klondike, el solitario clásico. Dé la vuelta al mazo, baje las columnas alternando colores y lleve todas las cartas a las bases.</p>
+    <p xml:lang="it">Il gioco di carte del desktop amadeOS: Klondike, il solitario classico. Gira il mazzo, scendi lungo le colonne alternando i colori e porta tutte le carte sulle fondazioni.</p>
+    <ul>
+      <li>Draw one or draw three</li>
+      <li xml:lang="de">Eine oder drei Karten ziehen</li>
+      <li xml:lang="fr">Tirer une ou trois cartes</li>
+      <li xml:lang="es">Robar una o tres cartas</li>
+      <li xml:lang="it">Pescare una o tre carte</li>
+      <li>Drag and double-click, undo and redo</li>
+      <li xml:lang="de">Ziehen und Doppelklick, Rückgängig und Wiederholen</li>
+      <li xml:lang="fr">Glisser et double-clic, annuler et rétablir</li>
+      <li xml:lang="es">Arrastrar y doble clic, deshacer y rehacer</li>
+      <li xml:lang="it">Trascinamento e doppio clic, annulla e ripeti</li>
+      <li>Ten best times for each draw mode</li>
+      <li xml:lang="de">Zehn Bestzeiten für jede Ziehart</li>
+      <li xml:lang="fr">Dix meilleurs temps pour chaque mode de tirage</li>
+      <li xml:lang="es">Diez mejores tiempos para cada modo de robo</li>
+      <li xml:lang="it">Dieci tempi migliori per ogni modalità di pesca</li>
+      <li>Built on amade-game-engine; plays on other operating systems as well</li>
+      <li xml:lang="de">Gebaut auf amade-game-engine; läuft auch auf anderen Betriebssystemen</li>
+      <li xml:lang="fr">Construit sur amade-game-engine ; fonctionne aussi sur d'autres systèmes d'exploitation</li>
+      <li xml:lang="es">Hecho con amade-game-engine; funciona también en otros sistemas operativos</li>
+      <li xml:lang="it">Costruito su amade-game-engine; funziona anche su altri sistemi operativi</li>
+    </ul>
+  </description>
+
+  <launchable type="desktop-id">amade-solitaire-game.desktop</launchable>
+  <icon type="stock">amade-solitaire-game</icon>
+  <categories>
+    <category>Game</category>
+    <category>CardGame</category>
+  </categories>
+
+  <url type="homepage">https://github.com/datazuul/amade-solitaire-game</url>
+  <url type="bugtracker">https://github.com/datazuul/amade-solitaire-game/issues</url>
+  <developer id="eu.amadeos">
+    <name>amadeOS Project</name>
+  </developer>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>A game after the first moves</caption>
+      <caption xml:lang="de">Ein Spiel nach den ersten Zügen</caption>
+      <caption xml:lang="fr">Une partie après les premiers coups</caption>
+      <caption xml:lang="es">Una partida tras los primeros movimientos</caption>
+      <caption xml:lang="it">Una partita dopo le prime mosse</caption>
+      <image>https://raw.githubusercontent.com/datazuul/amade-solitaire-game/main/docs/screenshots/amade-solitaire-game.png</image>
+    </screenshot>
+  </screenshots>
+
+  <provides>
+    <binary>amade-solitaire-game</binary>
+  </provides>
+  <content_rating type="oars-1.1"/>
+</component>

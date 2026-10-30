@@ -45,7 +45,7 @@ With `../amade-game-engine` (and `../amade-commons`) checked out next to this re
 - `ui.main`: Model-View-Presenter. `SolitairePresenter` runs the game without Swing (moves, undo with the engine's `History`, clock, finishing, best times), `SolitaireView` is what it needs from the window, `SolitaireWindow` implements it. Tests drive the presenter through a `FakeView`, without a display.
 - `ui.view`: `TableView` (shows the game, animates every card to its new place with the engine's `Tween` and `Animator`, drag and drop, the bouncing cards), `TableLayout` (where piles and cards lie, which card is under the mouse; tested without a window), `CardPainter` (faces, backs, suit symbols as shapes).
 
-Comments of the form `// --8<-- [start:name]` mark the excerpts the [Game Developer's Handbook](https://datazuul.github.io/amade-game-engine/) quotes.
+Comments of the form `// --8<-- [start:name]` mark the excerpts the [Game Developer's Handbook](https://docs.amadeos.eu/amade-game-engine/) quotes.
 
 ## Licence
 

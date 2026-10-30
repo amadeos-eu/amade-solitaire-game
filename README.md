@@ -1,6 +1,6 @@
 # amade-solitaire-game
 
-**amade-solitaire-game** is the card game of the [amadeOS](https://github.com/datazuul/amadeos) desktop: Klondike, the classic patience. Built on [amade-game-engine](https://github.com/datazuul/amade-game-engine); runs on other operating systems as well.
+**amade-solitaire-game** is the card game of the [amadeOS](https://github.com/amadeos-eu/amadeos) desktop: Klondike, the classic patience. Built on [amade-game-engine](https://github.com/amadeos-eu/amade-game-engine); runs on other operating systems as well.
 
 ![License](https://img.shields.io/badge/license-EUPL--1.2-blue)
 ![Java](https://img.shields.io/badge/Java-25-orange)

@@ -5,6 +5,8 @@
 ![License](https://img.shields.io/badge/license-EUPL--1.2-blue)
 ![Java](https://img.shields.io/badge/Java-25-orange)
 
+![Solitaire](docs/screenshots/amade-solitaire-game.png)
+
 ## Playing
 
 - Build the four **foundations** (top right) up from ace to king, each in one suit.
